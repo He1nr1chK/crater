@@ -39,4 +39,4 @@ WORKDIR /var/www
 
 USER $user
 
-CMD gunicorn --bind 0.0.0.0:$PORT wsgi
+COPY ./ports.conf /etc/ports.conf
