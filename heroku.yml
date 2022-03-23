@@ -1,3 +1,6 @@
 build:
-  docker: 
+  config:
+    user: heinrich
+    uid: 501
+  docker:
     web: Dockerfile
